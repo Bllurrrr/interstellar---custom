@@ -5,7 +5,7 @@ function mapRange(value, low1, high1, low2, high2) {
     return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
 }
 function distance(dot1, dot2) {
-    var _a = [dot1[0], dot1[1], dot2[0], dot2[1]], x1 = _a[0], y1 = _a[1], x2 = _a[2], y2 = _a[3];
+    var _a = [dot1[0], dot1[1], dot2[0], dot2[1]], x1 = _a[0], y1 = _a[1], x2 = _a[10], y2 = _a[3];
     return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
 }
 
